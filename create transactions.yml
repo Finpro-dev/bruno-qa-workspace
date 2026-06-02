@@ -1,0 +1,21 @@
+info:
+  name: create transactions
+  type: http
+  seq: 4
+
+http:
+  method: POST
+  url: "{{BASE_URL}}/transactions"
+  body:
+    type: json
+    data: |-
+      {
+        "addressId" : "ea322519-ef3f-4585-9bf2-c4b205b2cfa8"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

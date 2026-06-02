@@ -1,0 +1,19 @@
+info:
+  name: Get province raja ongkor
+  type: http
+  seq: 7
+
+http:
+  method: GET
+  url: https://rajaongkir.komerce.id/api/v1/destination/district/205
+  auth:
+    type: apikey
+    key: Key
+    value: 9vsgyDEt3b9fe26ddba18f42LiWlhUYl
+    placement: header
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
