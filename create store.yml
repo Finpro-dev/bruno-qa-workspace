@@ -6,6 +6,23 @@ info:
 http:
   method: POST
   url: "{{BASE_URL}}/stores"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Freshora Ubud Village",
+        "address": "Ubud Center Street, no.12, Ubud, Gianyar",
+        "districtId": 2190,
+        "district": "Ubud",
+        "cityId": 152,
+        "city": "Gianyar",
+        "provinceId": 9,
+        "province": "Bali",
+        "postalCode": "11530",
+        "phone": "081234567890",
+        "latitude": -6.1944,
+        "longitude": 106.7612
+      }
   auth: inherit
 
 settings:
