@@ -1,7 +1,7 @@
 info:
-  name: create store
+  name: create-store
   type: http
-  seq: 11
+  seq: 3
 
 http:
   method: POST
@@ -10,12 +10,12 @@ http:
     type: json
     data: |-
       {
-        "name": "Freshora Ubud Village",
-        "address": "Ubud Center Street, no.12, Ubud, Gianyar",
+        "name": "Freshora Uluwatu Beach",
+        "address": "Jln Uluwatu, no.240 Nusa Dua, Uluwatu",
         "districtId": 2190,
-        "district": "Ubud",
+        "district": "Uluwatu",
         "cityId": 152,
-        "city": "Gianyar",
+        "city": "Denpasar",
         "provinceId": 9,
         "province": "Bali",
         "postalCode": "11530",

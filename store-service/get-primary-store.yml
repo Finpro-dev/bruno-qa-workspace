@@ -1,7 +1,7 @@
 info:
-  name: get primary store
+  name: get-primary-store
   type: http
-  seq: 14
+  seq: 7
 
 http:
   method: GET

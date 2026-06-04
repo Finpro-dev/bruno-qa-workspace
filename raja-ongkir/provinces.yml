@@ -1,7 +1,7 @@
 info:
-  name: Get province raja ongkor
+  name: provinces
   type: http
-  seq: 7
+  seq: 2
 
 http:
   method: GET

@@ -1,5 +1,5 @@
 info:
-  name: create cart
+  name: create-cart
   type: http
   seq: 2
 
