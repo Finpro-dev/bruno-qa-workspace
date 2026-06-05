@@ -1,0 +1,15 @@
+info:
+  name: delete-cart
+  type: http
+  seq: 3
+
+http:
+  method: DELETE
+  url: "{{BASE_URL}}/cart/items/b15535f3-2fe0-4a93-a17d-780cc8a75603"
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5

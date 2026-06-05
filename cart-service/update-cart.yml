@@ -1,0 +1,22 @@
+info:
+  name: update-cart
+  type: http
+  seq: 2
+
+http:
+  method: PUT
+  url: "{{BASE_URL}}/cart/items/ef63bc30-7fd0-41a7-946f-f61b6dad0d00"
+  body:
+    type: json
+    data: |-
+      {
+        "quantity":2,
+        "operation": "set" 
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
